@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "cf835e11-5561-4db9-9717-eda123d15e1a",
+		"name": "IA Workshop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "registerUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"id_utilisateur\":1,\r\n\"nom\":\"halbaut\",\r\n\"prenom\":\"arthur\",\r\n\"password\":\"azertyuio123\",\r\n\"email\":\"arthur.halbaut@gmail.com\",\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/users/api/registerUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"api",
+						"registerUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loginUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
