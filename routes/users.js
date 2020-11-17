@@ -1,7 +1,7 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 md5 = require('js-md5');
-var db = require('../database');
+const db = require('../database');
 
 
 router.post('/api/registerUser', registerUser);
