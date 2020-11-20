@@ -1,0 +1,204 @@
+{
+    "montpellier": {
+      "quartiers": {
+        "mosson": {
+          "consommation_electrique": {
+            "annee": {
+              "2019": {
+                "janvier": "5352",
+                "fevrier": "5165",
+                "mars": "5062",
+                "avril": "4252",
+                "mai": "4152",
+                "juin": "4048",
+                "juillet": "4552",
+                "aout": "4749",
+                "septembre": "4652",
+                "octobre": "4432",
+                "novembre": "4590",
+                "decembre": "4978"
+              },
+              "2020": {
+                "janvier": "5442",
+                "fevrier": "5235",
+                "mars": "4986",
+                "avril": "4188",
+                "mai": "4089",
+                "juin": "3987",
+                "juillet": "4483",
+                "aout": "4677",
+                "septembre": "4582",
+                "octobre": "4365",
+                "novembre": "4521",
+                "decembre": "4903"
+              }
+            }
+          },
+          "consommation_gaz": {
+            "annee": {
+              "2019": {
+                "janvier": "2945",
+                "fevrier": "2524",
+                "mars": "2245",
+                "avril": "2274",
+                "mai": "2145",
+                "juin": "2304",
+                "juillet": "2358",
+                "aout": "2378",
+                "septembre": "2524",
+                "octobre": "2647",
+                "novembre": "2789",
+                "decembre": "2978"
+              },
+              "2020": {
+                "janvier": "2900",
+                "fevrier": "2486",
+                "mars": "2211",
+                "avril": "2239",
+                "mai": "2112",
+                "juin": "2269",
+                "juillet": "2322",
+                "aout": "2342",
+                "septembre": "2486",
+                "octobre": "2607",
+                "novembre": "2747",
+                "decembre": "2933"
+              }
+            }
+          }
+        },
+        "port_marianne": {
+          "consommation_electrique": {
+            "annee": {
+              "2019": {
+                "janvier": "2314",
+                "fevrier": "2205",
+                "mars": "2010",
+                "avril": "1645",
+                "mai": "1735",
+                "juin": "1887",
+                "juillet": "2122",
+                "aout": "2140",
+                "septembre": "1967",
+                "octobre": "1878",
+                "novembre": "1987",
+                "decembre": "2204"
+              },
+              "2020": {
+                "janvier": "2279",
+                "fevrier": "2171",
+                "mars": "1979",
+                "avril": "1620",
+                "mai": "1708",
+                "juin": "1858",
+                "juillet": "2090",
+                "aout": "2107",
+                "septembre": "1937",
+                "octobre": "1849",
+                "novembre": "1957",
+                "decembre": "2170"
+              }
+            }
+          },
+          "consommation_gaz": {
+            "annee": {
+              "2019": {
+                "janvier": "4212",
+                "fevrier": "3958",
+                "mars": "3745",
+                "avril": "3458",
+                "mai": "3345",
+                "juin": "3578",
+                "juillet": "3780",
+                "aout": "3790",
+                "septembre": "3907",
+                "octobre": "3998",
+                "novembre": "4045",
+                "decembre": "4125"
+              },
+              "2020": {
+                "janvier": "4148",
+                "fevrier": "3898",
+                "mars": "3688",
+                "avril": "3406",
+                "mai": "3294",
+                "juin": "3524",
+                "juillet": "3723",
+                "aout": "3733",
+                "septembre": "3848",
+                "octobre": "3938",
+                "novembre": "3984",
+                "decembre": "4063"
+              }
+            }
+          }
+        },
+        "hopitaux_facultes": {
+          "consommation_electrique": {
+            "annee": {
+              "2019": {
+                "janvier": "8060",
+                "fevrier": "7832",
+                "mars": "6900",
+                "avril": "5632",
+                "mai": "6278",
+                "juin": "6389",
+                "juillet": "7105",
+                "aout": "7090",
+                "septembre": "6659",
+                "octobre": "6521",
+                "novembre": "6593",
+                "decembre": "7024"
+              },
+              "2020": {
+                "janvier": "7939",
+                "fevrier": "7714",
+                "mars": "6796",
+                "avril": "5547",
+                "mai": "6183",
+                "juin": "6293",
+                "juillet": "6998",
+                "aout": "6983",
+                "septembre":"6559",
+                "octobre": "6423",
+                "novembre": "6494",
+                "decembre": "6918"
+              }
+            }
+          },
+          "consommation_gaz": {
+            "annee": {
+              "2019": {
+                "janvier": "3845",
+                "fevrier": "3656",
+                "mars": "3289",
+                "avril": "3026",
+                "mai": "2878",
+                "juin": "2980",
+                "juillet": "3125",
+                "aout": "3140",
+                "septembre": "3278",
+                "octobre": "3345",
+                "novembre": "3455",
+                "decembre": "3635"
+              },
+              "2020": {
+                "janvier": "3787",
+                "fevrier": "3601",
+                "mars": "3239",
+                "avril": "2980",
+                "mai": "2834",
+                "juin": "2935",
+                "juillet": "3078",
+                "aout": "3092",
+                "septembre": "3228",
+                "octobre": "3294",
+                "novembre": "3403",
+                "decembre": "3580"
+              }
+            }
+          }
+        }
+      }
+    }
+  }

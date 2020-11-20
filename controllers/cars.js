@@ -1,13 +1,39 @@
 const fetch = require('node-fetch');
 
 
-exports.searchCars2 = (req, res, next) => {
+exports.getAllCities = (req, res, next) => {
+    res.json({
+        "cityData": [
+           {
+               "name": "Montpellier",
+               "consommation" : 
+               [
+                   {
+                       "annee":2020,
+                       "electricite":150000
+                   },
+                   {
+                       "annee" : 2019,
+                       "electricite":120000
+                   }
+               ]
+           },
+           {
+               "name": "Béziers",
+               "consommation" : 
+               [
+                   {
+                       "annee":2020,
+                       "electricite":100000
+                   },
+                   {
+                       "annee" : 2019,
+                       "electricite":68000
+                   }
+               ]
+           }
 
-    fetch('https://public.opendatasoft.com/api/records/1.0/search/?dataset=vehicules-commercialises&q=&sort=puissance_maximale&facet=marque&facet=' +
-    'modele_utac&facet=carburant&refine.marque=LAMBORGHINI&refine.modele_utac=GALLARDO&refine.carburant=Essence')
-    .then(res => res.json())
-    .then(json => {
-        res.json(json);
+        ]
     })
 };
 

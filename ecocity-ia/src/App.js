@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Hello } from './components/hello'
+import { ElectricityChart } from './components/ElectricityChart'
+import { Search } from './components/Search';
 
 function App() {
   return (
     <div className="App">
-      <Hello />
+      <Search />
     </div>
   );
 }
